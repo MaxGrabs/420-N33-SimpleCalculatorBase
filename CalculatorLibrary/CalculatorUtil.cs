@@ -1,14 +1,19 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace SimpleCalculator
-{
-    public class CalculatorEngine
+
+namespace CalculatorLibrary
+{ 
+    public class CalculatorUtil
     {
-        public double Calculate (string argOperation, double argFirstNumber, double argSecondNumber)
+        public double Calculate(string argOperation, double argFirstNumber, double argSecondNumber)
         {
             double result;
 
-            switch(argOperation.ToLower())
+            switch (argOperation.ToLower())
             {
                 case "add":
                 case "+":
@@ -25,6 +30,10 @@ namespace SimpleCalculator
                 case "divide":
                 case "/":
                     result = argFirstNumber / argSecondNumber;
+                    break;
+                case "exponent":
+                case "^":
+                    result = Math.Pow(argFirstNumber, argSecondNumber);
                     break;
                 default:
                     throw new InvalidOperationException("Specified operation is not recognized.");
