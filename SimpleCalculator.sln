@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "SimpleCalculator\SimpleCalculator.csproj", "{5B1E5E51-A8D6-4A82-8344-831C86CC2468}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorLibrary", "CalculatorLibrary\CalculatorLibrary.csproj", "{D828F643-69D0-49DF-ABDD-CCE14F25B45B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorDLL", "CalculatorLibrary\CalculatorDLL.csproj", "{D828F643-69D0-49DF-ABDD-CCE14F25B45B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -12,7 +12,7 @@ namespace CalculatorLibrary
         public double Calculate(string argOperation, double argFirstNumber, double argSecondNumber)
         {
             double result;
-
+            StringBuilder sb = new StringBuilder();
             switch (argOperation.ToLower())
             {
                 case "add":
@@ -36,10 +36,10 @@ namespace CalculatorLibrary
                     result = Math.Pow(argFirstNumber, argSecondNumber);
                     break;
                 default:
-                    throw new InvalidOperationException("Specified operation is not recognized.");
+                    throw new InvalidOperationException("Specified operation is not recognized. Enter either + , - , * , / , or ^");
             }
             return result;
         }
-        //commit test
+        
     }
 }

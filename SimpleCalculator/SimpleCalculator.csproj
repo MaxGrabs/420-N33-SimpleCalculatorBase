@@ -52,9 +52,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\CalculatorLibrary\CalculatorLibrary.csproj">
+    <ProjectReference Include="..\CalculatorLibrary\CalculatorDLL.csproj">
       <Project>{d828f643-69d0-49df-abdd-cce14f25b45b}</Project>
-      <Name>CalculatorLibrary</Name>
+      <Name>CalculatorDLL</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
