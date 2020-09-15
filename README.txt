@@ -1,3 +1,5 @@
+1731417 Maximilian Grabowski
+1830121 Dmitry Grigoryev
 Step 4
 Added the feature to calculate exponents in CalculatorUtil.cs
 
